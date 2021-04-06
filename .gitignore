@@ -1,5 +1,7 @@
 .vscode
-
+tmp_song.mp3
+tmp_thumbnail.webp
+tmp_thumbnail.jpg
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
