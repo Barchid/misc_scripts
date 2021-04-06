@@ -6,7 +6,7 @@ import os
 from PIL import Image
 
 # CONSTANTS
-HOUR_IN_SECS = 4 * 60
+HOUR_IN_SECS = 60 * 60 * 60
 FILENAME_THUMB = "tmp_thumbnail"
 FILENAME_SONG = "tmp_song"
 DEST_DIR = "one_hour_vids"
