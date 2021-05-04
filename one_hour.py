@@ -7,7 +7,7 @@ import os
 # CONSTANTS
 TMP_SONG = "tmp_song"
 TMP_VIDEO = "tmp_video.mp4"
-TARGET_SECONDS_DURATION = 60 * 60 * 1 # One hour in seconds here
+TARGET_SECONDS_DURATION = 60 * 60 # One hour in seconds here
 
 def get_args():
     parser = argparse.ArgumentParser()
