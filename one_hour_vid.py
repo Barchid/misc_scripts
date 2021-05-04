@@ -101,4 +101,4 @@ if __name__ == "__main__":
     download_youtube_audio(args.source_url)
     one_hour = vid_to_1hour()
     print('Saving video')
-    one_hour.write_videofile(os.path.join(DEST_DIR, args.destination_file), fps=1, threads=4)
+    one_hour.write_videofile(os.path.join(DEST_DIR, args.destination_file), fps=1)
